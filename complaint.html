@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MVPS Speaks — Apni complaint darj karo. Anonymous, direct, safe." />
+  <title>MVPS Speaks — Complaint</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bug fix: page-specific layout styles belong in <head>, not after <script> at bottom -->
+  <style>
+    .complaint-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+      padding-top: 1rem;
+    }
+    @media (max-width: 768px) {
+      .complaint-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Alert Banner -->
+  <div class="alert-banner">
+    ⚠ IMD Heatwave Alert Active in U.P. — Schools Should Be Closed
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="site-name">MVPS<span> SPEAKS</span></a>
+      <button id="hamburger" aria-label="Menu" aria-expanded="false">☰</button>
+      <div id="nav-links"></div>
+    </div>
+  </nav>
+
+  <!-- Complaint Section -->
+  <section class="complaint-page-section">
+    <div class="container">
+      <!-- Bug fix: replaced inline style with .complaint-layout class -->
+      <div class="complaint-layout">
+
+        <!-- Left: Header + Instructions -->
+        <div>
+          <div id="complaint-header"></div>
+        </div>
+
+        <!-- Right: Google Form -->
+        <div id="complaint-form-container"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">MVPS SPEAKS</div>
+        <div id="footer-content"></div>
+      </div>
+      <a href="index.html" class="btn btn-secondary">← Wapas Home</a>
+    </div>
+  </footer>
+
+  <!-- Bug fix: script always at end of body, never after it -->
+  <script src="script.js"></script>
+
+</body>
+</html>

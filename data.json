@@ -1,0 +1,66 @@
+{
+  "site": {
+    "name": "MVPS Speaks",
+    "tagline": "Manvasa Vidya Public School — Student Voice Platform",
+    "school": "Manvasa Vidya Public School",
+    "location": "Mangapatti, Sudhawai, Bhadohi, U.P.",
+    "board": "CBSE Affiliated",
+    "email": "manvasa.org@gmail.com",
+    "established": "2015"
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "Complaint", "href": "complaint.html" }
+  ],
+  "hero": {
+    "headline": "STUDENTS KI AWAAZ",
+    "subheadline": "Hum chup nahi rahenge.",
+    "body": "Garmi mein school, heatwave alert ke baad bhi classes — yeh sahi nahi hai. Yahan students apni baat keh sakte hain — bina darr ke, bina login ke.",
+    "cta_primary": { "label": "Complaint Karo", "href": "complaint.html" },
+    "cta_secondary": { "label": "Demands Dekho", "href": "#demands" }
+  },
+  "stats": [
+    { "id": "complaints", "value": 1, "label": "Complaints Darj" },
+    { "id": "supporters", "value": 1, "label": "Students Saath Hain" },
+    { "id": "demands", "value": 3, "label": "Demands Pending" }
+  ],
+  "demands": [
+    {
+      "id": 1,
+      "title": "Summer Vacation Do",
+      "body": "IMD ne heatwave red alert jaari kiya hai UP mein. Temperatures 45°C+ hain. Doosre states mein schools band hain — MVPS mein kyun nahi?",
+      "status": "pending",
+      "urgency": "critical"
+    },
+    {
+      "id": 2,
+      "title": "School Timing Badlo",
+      "body": "Agar vacation nahi deni toh kam se kam timings subah 7 baje se 11 baje kar do — jaise baaki UP ke schools kar rahe hain.",
+      "status": "pending",
+      "urgency": "high"
+    },
+    {
+      "id": 3,
+      "title": "Paani Aur Cooling Ki Vyavastha",
+      "body": "Classes ke beech adequate water breaks aur fans/coolers ka proper arrangement hona chahiye. Students ki health pehle hai.",
+      "status": "pending",
+      "urgency": "high"
+    }
+  ],
+  "complaint_page": {
+    "headline": "APNI BAAT KAHO",
+    "subheadline": "Har complaint record hoti hai. Director tak pahunchti hai.",
+    "note": "Tumhari identity safe hai. Anonymous submission ka option available hai.",
+    "google_form_url": "YOUR_GOOGLE_FORM_EMBED_URL_HERE",
+    "instructions": [
+      "Apni complaint clearly likhein",
+      "Anonymous rehna chahte ho toh naam mat bharein",
+      "Submit karne ke baad complaint record ho jaati hai",
+      "Hum ise concerned authorities tak pahunchayenge"
+    ]
+  },
+  "footer": {
+    "tagline": "Students ke liye, students ke dwara.",
+    "disclaimer": "Yeh ek independent student platform hai. MVPS school se affiliated nahi hai."
+  }
+}
